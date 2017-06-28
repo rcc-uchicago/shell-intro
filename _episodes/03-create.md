@@ -460,6 +460,7 @@ but it does find the copy in `thesis` that we didn't delete.
 > 3. `mv statstics.txt .`
 > 4. `cp statstics.txt .`
 >
+<!--
 > > ## Solution
 > > 1. No.  While this would create a file with the correct name, the incorrectly named file still exists in the directory
 > > and would need to be deleted.
@@ -469,6 +470,7 @@ but it does find the copy in `thesis` that we didn't delete.
 > > 4. No, the period(.) indicates where to copy the file, but does not provide a new file name; identical file names
 > > cannot be created.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Moving and Copying
@@ -504,6 +506,7 @@ but it does find the copy in `thesis` that we didn't delete.
 > 3.   `proteins.dat recombine`
 > 4.   `proteins-saved.dat`
 >
+<!--
 > > ## Solution
 > > We start in the `/Users/jamie/data` directory, and create a new folder called `recombine`.
 > > The second line moves (`mv`) the file `proteins.dat` to the new folder (`recombine`).
@@ -518,6 +521,7 @@ but it does find the copy in `thesis` that we didn't delete.
 > > 3. No, see explanation above.  `proteins.dat` is located at `/Users/jamie/data/recombine`
 > > 4. No, see explanation above.  `proteins-saved.dat` is located at `/Users/jamie`
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Organizing Directories and Files
@@ -640,10 +644,12 @@ but it does find the copy in `thesis` that we didn't delete.
 > What happens when we type `rm -i thesis/quotations.txt`?
 > Why would we want this protection when using `rm`?
 >
+<!--
 > > ## Solution
 > >
 > > Ask for confirmation.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Copy a folder structure sans files
