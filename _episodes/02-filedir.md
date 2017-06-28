@@ -786,6 +786,7 @@ and we will see it in many other tools as we go on.
 >
 > ![File System for Challenge Questions](../fig/filesystem-challenge.svg)
 >
+<!--
 > > ## Solution
 > > 1. No: there *is* a directory `backup` in `/Users`.
 > > 2. No: this is the content of `Users/thing/backup`,
@@ -794,6 +795,7 @@ and we will see it in many other tools as we go on.
 > >    Also, we did not specify `-F` to display `/` at the end of the directory names.
 > > 4. Yes: `../backup` refers to `/Users/backup`.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## `ls` Reading Comprehension
@@ -813,6 +815,7 @@ and we will see it in many other tools as we go on.
 > 3.  `ls -r -F /Users/backup`
 > 4.  Either #2 or #3 above, but not #1.
 >
+<!--
 > > ## Solution
 > >  1. No: `pwd` is not the name of a directory.
 > >  2. Yes: `ls` without directory argument lists files and directories
@@ -820,6 +823,7 @@ and we will see it in many other tools as we go on.
 > >  3. Yes: uses the absolute path explicitly.
 > >  4. Correct: see explanations above.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Exploring More `ls` Arguments
@@ -830,12 +834,14 @@ and we will see it in many other tools as we go on.
 > as file permissions and ownership), but the rest should be useful
 > nevertheless.
 >
+<!--
 > > ## Solution
 > > The `-l` arguments makes `ls` use a **l**ong listing format, showing not only
 > > the file/directory names but also additional information such as the file size
 > > and the time of its last modification. The `-h` argument makes the file size
 > > "**h**uman readable", i.e. display something like `5.3K` instead of `5369`.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Listing Recursively and By Time
@@ -847,8 +853,10 @@ and we will see it in many other tools as we go on.
 > In what order does `ls -R -t` display things? Hint: `ls -l` uses a long listing
 > format to view timestamps.
 >
+<!--
 > > ## Solution
 > > The directories are listed alphabetical at each level, the files/directories
 > > in each directory are sorted by time of last change.
 > {: .solution}
+-->
 {: .challenge}
