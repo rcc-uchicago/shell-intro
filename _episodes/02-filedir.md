@@ -759,6 +759,7 @@ and we will see it in many other tools as we go on.
 > 8. `cd`
 > 9. `cd ..`
 >
+<!--
 > > ## Solution
 > > 1. No: `.` stands for the current directory.
 > > 2. No: `/` stands for the root directory.
@@ -770,6 +771,7 @@ and we will see it in many other tools as we go on.
 > > 8. Yes: shortcut to go back to the user's home directory.
 > > 9. Yes: goes up one level.
 > {: .solution}
+-->
 {: .challenge}
 
 > ## Relative Path Resolution
