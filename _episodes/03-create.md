@@ -1,7 +1,7 @@
 ---
 title: "Working With Files and Directories"
-teaching: 30
-exercises: 20
+teaching: 0
+exercises: 0
 questions:
 - "How can I create, copy, and delete files and directories?"
 - "How can I edit files?"
@@ -114,7 +114,7 @@ $ ls -F thesis
 {: .language-bash}
 
 Let's change our working directory to `thesis` using `cd`,
-then run a text editor called Nano to create a file called `draft.txt`:
+then run a text editor called `Nano` to create a file called `draft.txt`:
 
 ~~~
 $ cd thesis

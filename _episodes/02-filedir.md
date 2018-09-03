@@ -1,7 +1,7 @@
 ---
 title: "Navigating Files and Directories"
-teaching: 30
-exercises: 10
+teaching: 0
+exercises: 0
 questions:
 - "How can I move around on my computer?"
 - "How can I see what files and directories I have?"
@@ -709,7 +709,7 @@ Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 
 > ## Relative Path Resolution
 >
-> Using the filesystem diagram below, if `pwd` displays `/Users/thing`,
+> Using the filesystem diagram below, if `pwd` displays `/Users/thing/backup`,
 > what will `ls -F ../backup` display?
 >
 > 1.  `../backup: No such file or directory`
@@ -720,11 +720,11 @@ Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 > ![File System for Challenge Questions](../fig/filesystem-challenge.svg)
 >
 > > ## Solution
-> > 1. No: there *is* a directory `backup` in `/Users`.
-> > 2. No: this is the content of `Users/thing/backup`,
-> >    but with `..` we asked for one level further up.
-> > 3. No: see previous explanation.
-> > 4. Yes: `../backup/` refers to `/Users/backup/`.
+> > 1. No: there *is* a directory `backup` in `/Users/thing`.
+> > 2. No: there is not following `/`.
+> > 3. Yes: `../backup` refers to `/Users/thing/backup`.
+> > 4. No: this is the content of `/Users/backup/`,
+> >    but with `..` we asked for one level up.
 > {: .solution}
 {: .challenge}
 
