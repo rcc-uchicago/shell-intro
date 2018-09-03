@@ -721,7 +721,7 @@ Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 >
 > > ## Solution
 > > 1. No: there *is* a directory `backup` in `/Users/thing`.
-> > 2. No: there is not following `/`.
+> > 2. No: there is no trailing `/`.
 > > 3. Yes: `../backup` refers to `/Users/thing/backup`.
 > > 4. No: this is the content of `/Users/backup/`,
 > >    but with `..` we asked for one level up.
